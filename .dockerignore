@@ -1,3 +1,7 @@
-.*
-build
 node_modules
+dist
+build
+.git
+.gitignore
+.env
+README.md
