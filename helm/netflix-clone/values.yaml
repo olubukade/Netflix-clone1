@@ -1,0 +1,14 @@
+replicaCount: 1
+
+image:
+  repository: docker.io/olubukade95/netflix-clone
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: NodePort
+  port: 80
+  targetPort: 80
+  nodePort: 32680
+
+containerPort: 80
